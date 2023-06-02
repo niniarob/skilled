@@ -1,0 +1,153 @@
+@media screen  and (min-width:800px){
+    .container{
+        width: 800px; 
+        background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    }
+    .child-container{
+        width: 90%;
+        margin: 30px 39px auto 39px;
+    }
+    .header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .section{
+        width: 100%;
+        display: flex;
+        margin-top: 120px;
+    }
+    .skill-text{
+        width: 326px;
+    }
+    .about-modern{
+        width: 398px;
+    }
+    .girl-photo{
+        margin-top: -175px;
+        margin-left: -69px;
+        width: 640px;
+        height: 640px;
+        background-image: url(./assets/Group\ 12\ \(2\).svg);
+    }
+    .boxes{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .box1{
+        width: 339px;
+        height: 259px;
+        display: flex; 
+        align-items: start;
+        padding-top: 56px;
+        text-align: start;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 35px;
+    }      
+}
+@media screen  and (min-width:1519px){  
+    .container{
+        width: 100%;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    }
+    .child-container{
+        width: 80%;
+        margin-top: 29px;
+    }
+    .header{
+        width: 100%; 
+    }
+    h5{
+       font-size: 36px;
+       line-height: 45px;
+    }
+    .but-one{
+        width: 167px;
+        height: 56px;
+        font-size: 18px;
+    }
+    .section{
+        margin-top: 225px;
+    }
+    .skill-text{
+        width: 457px;
+        font-size: 56px;
+        line-height: 70px;
+    }
+    .girl-photo{
+        width: 991px;
+        height: 936px;
+        margin-left: 132px;
+        margin-top: -283px;
+        background-image: url(./assets/Group\ 19\ \(1\).svg);
+        background-repeat: no-repeat; 
+    }
+    .about-modern{
+        margin-top: 29px;
+    }
+    .but-two{
+        margin-top: 40px;
+    }
+    .boxes{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 55px;
+    }
+    .box1{
+        width: 350px;
+        height: 322px;
+        border-radius: 15px;
+        display: flex; 
+        align-items: start;
+        padding-top: 64px;
+        text-align: start;
+    }
+    h3{
+        width: 286px;
+        height: 120px;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;  
+    }
+    .box2{
+        width: 350px;
+        height: 322px;
+        border-radius: 15px;
+    }
+    h2{
+        margin-top: 7px;
+        width: 121px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    p{
+        margin-top: 21px;
+        width: 286px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .link{
+        width: 104px;
+        padding-bottom: 5px;
+    }
+    .footer{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+       
+        padding-inline:  160px;
+        justify-content: space-between;
+    }
+    
+}
